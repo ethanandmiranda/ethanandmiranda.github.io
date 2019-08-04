@@ -17,29 +17,70 @@
             margin: 0;
             padding: 0
         }
+        .display-5 {
+            font-size: 2.5em;
+            font-weight: 300;
+            line-height: 1.1;
+        }
+        .content .row {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
     </style>
 </head>
 
 <body class="bg-dark">
     <div class="container-fluid">
         <div class="row">
-            <nav class="col-12 navbar navbar-expand-lg navbar-light bg-light">
+            <div class="jumbotron jumbotron-fluid bg-light text-center col-10 offset-1">
+                <h1 class="display-1">Ethan and Miranda</h1>
+                <div class="lead display-4">
+                    <p>October 19th, 2019</p>
+                    <p>5 pm EST</p>
+                    <p>The Bell House</p>
+                    <p>545 Sayre Ave, Lexington, KY 40508</p>
+                </div>
+                <hr class="my-4">
+                <div class="lead display-5 col-12 content">
+                    <div class="row align-items-center">
+                        <div class="col-2 offset-1 font-weight-bold">Attire: </div>
+                        <div class="col-9">Semi-formal</div>
+                    </div>
+                    <div class="row align-items-center">
+                        <div class="col-2 offset-1 font-weight-bold">Reception: </div>
+                        <div class="col-9">Food will be served at reception after the ceremony. Alcoholic and non-alcoholic beverages will be provided.</div>
+                    </div>
+                    <div class="row align-items-center">
+                        <div class="col-2 offset-1 font-weight-bold">Parking: </div>
+                        <div class="col-9">Street parking is available around the park surrounding the Bell House.</div>
+                    </div>
+                    <div class="row align-items-center">
+                        <div class="col-2 offset-1 font-weight-bold">Hotels:</div>
+                        <div class="col-9">
+                            Please reserve in advance due to a football game causing a surplus of hotel reservations.
+                        </div>
+                    </div>
+                    <div class="row align-items-center">
+                        <div class="col-2 offset-1 font-weight-bold">Special Notes:</div>
+                        <div class="col-9">We please ask that you leave young children at home.</div>
+                    </div>
+                </div>
+            </div>
 
-            </nav>
+            <div class="jumbotron jumbotron-fluid bg-light col-10 offset-1">
+                <div class="row ml-5">
+                    <h4 class="col-11 display-4">Registry</h5>
+                    <div class="col-11">
+                        <a class="zola-registry-embed" href="www.zola.com/registry/ethanandmiranda2019" data-registry-key="ethanandmiranda2019">
+                            Our Zola Wedding Registry
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="jumbotron bg-light">
-            <h1 class="display-1">Ethan and Miranda</h1>
-            <p class="lead">
-                <div class="col-6 col-sm-12 display-4">October 19th, 2019</div>
-                -
-                <div class="col-6 col-sm-12 display-4">5 pm EST</div>
-            </p>
-            <p class="lead display-4">545 Sayre Ave, Lexington, KY 40508</p>
-            <hr class="my-4">
-            <p>It uses utility classes for typography and spacing to space content out within the larger container</p>
-            <a class="btn btn-primary btn-lg" href="#" role="button">Learn More</a>
-        </div>
+
     </div>
+    <script>!function(e,t,n){var s,a=e.getElementsByTagName(t)[0];e.getElementById(n)||(s=e.createElement(t),s.id=n,s.async=!0,s.src="https://widget.zola.com/js/widget.js",a.parentNode.insertBefore(s,a))}(document,"script","zola-wjs");</script>
 </body>
 
 </html>
