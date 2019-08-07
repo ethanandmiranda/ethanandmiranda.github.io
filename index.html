@@ -1,6 +1,9 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ethan and Miranda's Wedding Site</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -19,13 +22,17 @@
             padding: 0
         }
         .display-5 {
-            font-size: 2.5em;
+            font-size: 2.5rem;
             font-weight: 300;
             line-height: 1.1;
         }
         .content .row {
             padding-top: 20px;
             padding-bottom: 20px;
+        }
+        .row-border-bottom {
+            border-bottom: 1px solid #3f3f3f;
+            margin-top: 40px;
         }
     </style>
 </head>
@@ -34,7 +41,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="jumbotron jumbotron-fluid bg-light text-center col-10 offset-1">
-                <h1 class="display-1">Ethan and Miranda</h1>
+                <h1 class="display-2">Ethan and Miranda</h1>
                 <div class="lead display-4">
                     <p>October 19th, 2019</p>
                     <p>5 pm EST</p>
@@ -42,28 +49,25 @@
                     <p>545 Sayre Ave, Lexington, KY 40508</p>
                 </div>
                 <hr class="my-4">
-                <div class="lead display-5 col-12 content">
+                <div class="lead col-12 display-5 content">
                     <div class="row align-items-center">
-                        <div class="col-2 offset-1 font-weight-bold">Attire: </div>
-                        <div class="col-9">Semi-formal</div>
+                        <div class="col-md-2 col-12 offset-md-1 font-weight-bold">Attire<span class="d-md-inline d-none">:</span></div>
+                        <div class="col-md-8 col-12">Semi-formal</div>
+                        <div class="col-md-10 offset-md-1 d-none d-md-block row-border-bottom"></div>
                     </div>
                     <div class="row align-items-center">
-                        <div class="col-2 offset-1 font-weight-bold">Reception: </div>
-                        <div class="col-9">Food will be served at reception after the ceremony. Alcoholic and non-alcoholic beverages will be provided.</div>
+                        <div class="col-md-2 col-12 offset-md-1 font-weight-bold">Reception<span class="d-md-inline d-none">:</span></div>
+                        <div class="col-md-8 col-12">Food will be served at reception after the ceremony. Alcoholic and non-alcoholic beverages will be provided.</div>
+                        <div class="col-md-10 offset-md-1 d-none d-md-block row-border-bottom"></div>
                     </div>
                     <div class="row align-items-center">
-                        <div class="col-2 offset-1 font-weight-bold">Parking: </div>
-                        <div class="col-9">Street parking is available around the park surrounding the Bell House.</div>
+                        <div class="col-md-2 col-12 offset-md-1 font-weight-bold">Parking<span class="d-md-inline d-none">:</span></div>
+                        <div class="col-md-8 col-12">Street parking is available around the park surrounding the Bell House.</div>
+                        <div class="col-md-10 offset-md-1 d-none d-md-block row-border-bottom"></div>
                     </div>
                     <div class="row align-items-center">
-                        <div class="col-2 offset-1 font-weight-bold">Hotels:</div>
-                        <div class="col-9">
-                            Please reserve in advance due to a football game causing a surplus of hotel reservations.
-                        </div>
-                    </div>
-                    <div class="row align-items-center">
-                        <div class="col-2 offset-1 font-weight-bold">Special Notes:</div>
-                        <div class="col-9">We please ask that you leave young children at home.</div>
+                        <div class="col-md-2 col-12 offset-md-1 font-weight-bold">Special Notes<span class="d-md-inline d-none">:</span></div>
+                        <div class="col-md-8 col-12">We please ask that you leave young children at home.</div>
                     </div>
                 </div>
             </div>
